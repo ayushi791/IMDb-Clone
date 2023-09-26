@@ -4,15 +4,15 @@ Created an IMDb Clone using Vanilla JavaScript, without any libraries or framewo
 
 ### Features:
 ##### 1. Home Page
-- Search any movie from the API and display the search results on the frontend (as I type the search results should update, just like Google does for suggestions).
-- Each search result of the movie should have a favourite button, clicking on which the movie should be added to “My favourite movies” (a list).
-- On clicking any particular search result (any movie), open a new page with more information about that movie (movie page)
+- Searches any movie from the API and displays the  results on the screen (as we type, the search results update, just like Google suggestions).
+- Each search result/suggestion of the movie has a favourite button, clicking on which the movie is added to “My favourite movies” (a list).
+- Clicking any search result/suggestion (any movie card) opens a new page with more information about that movie (the movie page).
 
 ##### 2. Movie Page
-- Should show information about the movie like its name, photo, plot, etc (these are must, rest you can add if you want).
+- Shows information about the movie like its as its name, year, runtime, rating, poster, plot, director, cast, genre etc.
 
 ##### 3. My Favourite Movies Page
-- Display a list of all the favourite movies.
-- Make this list persistent (should have the same number of movies before and after closing the browser/refreshing the browser).
-- Remove from favourites button: Each movie should have remove from favourites button, clicking on which should remove that movie from the list.
+- Displays a list of all the favourite movies.
+- Favourite movie list is persistent (it saves all favourite movies before and after closing the browser/refreshing the browser).
+- Each movie has a remove from favourites button, clicking on it removes that movie from the favourite list.
 
